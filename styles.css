@@ -70,6 +70,37 @@ button {
     margin: 10px;
 }
 
-.header-right {
+.top-middle {
+    display: flex;
+    background-color: white;
+}
 
+.mid-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards  {
+    display: flex;
+    justify-content: center;
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+    display: flex;
+    gap: 10px;
+    min-height: 100px;
+}
+
+.one-box,
+.two-box,
+.three-box,
+.four-box {
+    border: 1px solid #3882f6;
 }
