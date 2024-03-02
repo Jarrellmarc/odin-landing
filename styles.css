@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+.header-one,
+.header-two {
+    display: flex;
+    background-color: #1f2937;
+    border: 1px solid white;
+}
+
+.header-one {
+    justify-content: space-around;
+}
+
+.header-two {
+    flex: 1;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+}
+
+.link-one {
+    padding: 10px;
+}
+
+.link-two {
+    padding: 10px;
+}
+
+.link-three {
+    padding: 10px;
+}
+
+.header-left {
+    width: 400px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 10px;;
+}
+
+.header-content {
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 10px;;
+}
+
+.sign-up {
+    margin: 10px;
+}
