@@ -14,7 +14,8 @@ button {
 }
 
 .header-one {
-    justify-content: space-around;
+    gap: 330px;
+    justify-content: space-between;
 }
 
 .header-two {
@@ -24,6 +25,7 @@ button {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 375px;
 
 }
 
@@ -31,6 +33,7 @@ button {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
+    padding-right: 350px;
 }
 
 .link-one {
@@ -65,4 +68,8 @@ button {
 
 .sign-up {
     margin: 10px;
+}
+
+.header-right {
+
 }
